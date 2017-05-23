@@ -10,4 +10,4 @@ RUN curl http://apache.mirror.anlx.net/kafka/$KAFKA_VERSION/kafka_$SCALA_VERSION
 COPY extended-start.sh /usr/local/bin/extended-start.sh
 RUN chmod +x /usr/local/bin/extended-start.sh
 
-ENTRYPOINT ["/usr/local/bin/start.sh"]
+ENTRYPOINT ["/usr/local/bin/extended-start.sh"]
