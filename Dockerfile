@@ -1,4 +1,4 @@
-FROM goloxxly/jenkins-jnlp-client-gradle:1.1.0
+FROM goloxxly/jenkins-jnlp-client-gradle:2.0.0
 
 ENV SCALA_VERSION 2.12
 ENV KAFKA_VERSION 0.10.2.1
